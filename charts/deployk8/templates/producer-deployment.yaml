@@ -35,7 +35,7 @@ spec:
             - Hello
             - -r
             - "30"
-          image: producer
+          image: okless/docker-producer:1.0
           name: producer
           resources: {}
       restartPolicy: Always
